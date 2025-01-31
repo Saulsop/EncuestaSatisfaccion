@@ -25,7 +25,7 @@
         android:layout_marginBottom="8dp"/>
 
     <EditText
-        android:id="@+id/editTextNombre"
+        android:id="@+id/txtNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
@@ -41,7 +41,7 @@
         android:layout_marginBottom="8dp"/>
 
     <SeekBar
-        android:id="@+id/seekBarSatisfaccion"
+        android:id="@+id/seekSatisfaccion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:max="100"
@@ -55,7 +55,7 @@
         android:layout_marginBottom="8dp"/>
 
     <EditText
-        android:id="@+id/editTextComentarios"
+        android:id="@+id/txtComentarios"
         android:layout_width="match_parent"
         android:layout_height="120dp"
         android:gravity="top"
@@ -65,7 +65,7 @@
         android:layout_marginBottom="32dp"/>
 
     <Button
-        android:id="@+id/buttonEnviar"
+        android:id="@+id/btnEnviar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enviar"
